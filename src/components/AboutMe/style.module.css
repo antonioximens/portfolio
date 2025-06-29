@@ -1,0 +1,28 @@
+.image {
+  height: 500px;  
+  max-width: fit-content;  
+  width: 100%;
+  object-fit: cover;
+  border-radius: 0rem 10rem 0rem 0rem;
+  box-shadow: 0 0 40px 0 rgba(249, 71, 2, 0.4); /*sombra laranja difusa ao redor  */
+} 
+
+.title {
+    font-size: 3rem;
+    margin-left: 8rem;
+}
+
+.subTitle {
+    font-size: 1.2rem;
+    text-align: justify;
+    padding: 0 1.5rem;;
+}
+
+.portfolioStripe {
+  display: inline-block;
+  width: 200px;
+  height: 10px;
+  margin: 0px 0px 10px 10px;
+  background-color: #f94702;
+}
+

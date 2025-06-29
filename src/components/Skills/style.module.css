@@ -1,0 +1,33 @@
+.title {
+    font-size: 3rem;
+    margin-left: 35%;
+}
+.description {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.portfolioStripe {
+  display: inline-block;
+  width: 200px;
+  height: 10px;
+  margin: 0px 0px 10px 10px;
+  background-color: #f94702;
+}
+
+.skillsGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.skillsGrid img {
+  width: 50px;
+  height: 50px;
+  transition: transform 0.3s ease;
+}
+
+.skillsGrid img:hover {
+  transform: scale(1.15);
+}

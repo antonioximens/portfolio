@@ -1,0 +1,28 @@
+.sectionTitle {
+  font-size: 3rem;
+  margin: 2rem 0;
+  padding-top: 1rem;;
+  display: flex;
+  align-items: center;
+}
+
+.portfolioStripe {
+  width: 200px;
+  height: 10px;
+  background-color: #f94702;
+  display: inline-block;
+}
+
+.codeBlock {
+  background-color: #1e1e1e;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  overflow-x: auto;
+  white-space: pre-wrap;
+}
+
+.button {
+    background-color: #f94702 !important;
+    border: 0 !important;
+    margin: 10% 40%;
+}
