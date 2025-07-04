@@ -5,10 +5,10 @@ import style from "./style.module.css";
 const NavBar: React.FC = () => {
   return (
     <Navbar bg="dark" variant="dark" expand="md" sticky="top">
-      <Container className="mt-3">
+      <Container className="mt-1">
         <Navbar.Brand href="#Home" className="d-flex align-items-center">
           <span
-            className={`me-2 ${style.portfolioStripe}`}
+            className={`me-1 ${style.portfolioStripe}`}
           ></span>
           Portfólio
         </Navbar.Brand>

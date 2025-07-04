@@ -2,30 +2,26 @@
     --navbar-hover-color: #f94702;
     --background-color: #282828;
     --background-color-button: #444649;
+    --color-button: #f2f2f2;
+}
+
+.portfolioStripe {
+    width: 80px;
+    height: 6px;
+    background-color: #f94702;
+    box-shadow: 0 0 6px rgba(249, 71, 2, 0.5)
 }
 
 .buttonLink {
-    text-decoration: none;
-    color: #f2f2f2;
-    font-size: 1.2rem;
+    color: var(--color-button);
     margin: 0 1rem;
-    padding: 1rem 2rem;
     border-radius: 10px;
     background-color: var(--background-color-button);
     transition: background-color 0.3s ease, color 0.3s ease;
-    border: 0;
 }
 
 .buttonLink:hover {
     background-color: var(--navbar-hover-color);
-    border: 0;
-    border-radius: 10px;
-    color: white;
-}
-
-.portfolioStripe {
-  width: 100px;
-  height: 7px;
-  background-color: #f94702;
-  margin: 5px 0 0 0;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }

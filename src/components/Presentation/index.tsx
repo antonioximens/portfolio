@@ -13,12 +13,12 @@ export const Presentation: React.FC = () => {
         className="container-fluid text-light d-flex align-items-center"
         style={{
           backgroundColor: "#212529",
-          minHeight: "90.8vh",
+          minHeight: "100vh",
         }}
       >
         {/* inicio do conteudo */}
         <div className="row w-100 gx-0">
-          <div className="col-md-6 d-flex flex-column justify-content-center ps-md-5">
+          <div className="col-md-7 d-flex flex-column justify-content-center align-items-center">
             <h1 className={`${style.title}`}>Antônio Marcos Ximenes</h1>
             <TypeAnimation
               sequence={[
@@ -35,7 +35,7 @@ export const Presentation: React.FC = () => {
               repeat={Infinity}
             />
           </div>
-          <div className="col-md-6 d-flex justify-content-center align-items-center">
+          <div className="col-md-5 d-flex justify-content-center align-items-center">
             <div className={style.imageWrapper}>
                 <img
                 src={image}
