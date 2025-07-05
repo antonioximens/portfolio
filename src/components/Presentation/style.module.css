@@ -1,7 +1,7 @@
 .title {
-  font-size: 3rem;
-  font-weight: 700;
-  letter-spacing: 0.05em;
+  font-size: 3rem; /* tamnnho da fonte */
+  font-weight: 700; /* peso da fonte */ 
+  letter-spacing: 0.05em; /* espçamento das letras */
 }
 
 .image {
@@ -14,8 +14,8 @@
 
 .typing {
   font-size: 1.5rem;
-  text-transform: uppercase;
-  text-shadow: 1px 1px 2px #000;
+  text-transform: uppercase; /* transforma tudo em maiusculo */
+  text-shadow: 1px 1px 2px #000; /* sombra no texto*/
   font-weight: 400;
   letter-spacing: 0.07em;
   color: #f94702;

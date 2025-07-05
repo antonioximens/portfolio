@@ -10,7 +10,7 @@ export const AboutMe: React.FC = () => {
         className="container-fluid text-light d-flex align-items-center"
         style={{
           backgroundColor: "#212529",
-          minHeight: "90.8vh",
+          minHeight: "100vh"
         }}
       >
         {/* inicio do conteudo */}
@@ -24,10 +24,10 @@ export const AboutMe: React.FC = () => {
               />
             </div>
           </div>
-          <div className="col-md-6 d-flex flex-column justify-content-center">
+          <div className="col-md-5 d-flex flex-column justify-content-center align-items-end">
             <h1 className={`${style.title}`}>
               SOBRE MIM
-              <span className={`me-2 ${style.portfolioStripe}`}></span>
+              <span className={`ms-2 ${style.portfolioStripe}`}></span>
             </h1>
             <p className={`${style.subTitle}`}>
               Olá, sou Antônio Marcos Ximenes, estudante bacharel em Ciência da
