@@ -3,20 +3,19 @@ import image from "../../image/profile.jpg";
 import NavBar from "../NavBar";
 import style from "./style.module.css";
 import { TypeAnimation } from "react-type-animation";
+import { Container } from "react-bootstrap";
 
 export const Presentation: React.FC = () => {
   return (
     <>
       <NavBar />
-      <div
-        id="Home"
-        className="container-fluid text-light d-flex align-items-center"
-        style={{
+      <Container fluid id="Home" className="p-0 text-light d-flex align-items-center"
+      style={{
           backgroundColor: "#212529",
           minHeight: "100vh",
         }}
       >
-        {/* inicio do conteudo */}
+      {/* inicio do conteudo */}
         <div className="row w-100 gx-0">
           <div className="col-md-7 d-flex flex-column justify-content-center align-items-center">
             <h1 className={`${style.title}`}>Antônio Marcos Ximenes</h1>
@@ -46,7 +45,8 @@ export const Presentation: React.FC = () => {
           </div>
         </div>
         {/* fim */}
-      </div>
+
+      </Container>
     </>
   );
 };

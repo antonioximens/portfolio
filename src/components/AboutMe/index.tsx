@@ -1,19 +1,18 @@
 import React from "react";
 import image from "../../image/profile.jpg";
 import style from "./style.module.css";
+import { Container } from "react-bootstrap";
 
 export const AboutMe: React.FC = () => {
   return (
     <>
-      <div
-        id="AboutMe"
-        className="container-fluid text-light d-flex align-items-center"
-        style={{
+    <Container fluid id="AboutMe" className="p-0 text-light d-flex align-items-center"
+    style={{
           backgroundColor: "#212529",
           minHeight: "100vh"
         }}
-      >
-        {/* inicio do conteudo */}
+    >
+      {/* inicio do conteudo */}
         <div className="row w-100 gx-0">
           <div className="col-md-6 d-flex justify-content-center align-items-center">
             <div className={style.imageWrapper}>
@@ -49,7 +48,7 @@ export const AboutMe: React.FC = () => {
           </div>
         </div>
         {/* fim */}
-      </div>
+      </Container>
     </>
   );
 };
