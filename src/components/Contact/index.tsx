@@ -4,24 +4,25 @@ import gmail from "../../image/gmail.png"
 import linkedin from "../../image/linkedin.png"
 import github from "../../image/github.png"
 import wpp from "../../image/whatsapp.png"
+import { Container } from "react-bootstrap";
 
 export const Contact: React.FC = () => {
   return (
-    <div id="contact" className="container-fluid bg-dark text-light py-5">
+    <Container fluid id="contact" className="bg-dark text-light py-5" >
       <div className="row align-items-center">
         {/* Coluna 1 - Título + Texto */}
-        <div className="col-md-6 px-5">
+        <div className={`col-md-7 ${style.divContact}`}>
           <h2 className={style.title}>
-            <span className={`ms-2 me-2 ${style.contactStripe}`}></span>
+            <span className={style.contactStripe}></span>
             Fale Comigo
           </h2>
-          <p className={style.description}>
+          <p className={`text-align-center ${style.description}`}>
             Estou disponível para novos projetos e oportunidades. Entre em contato pelas redes ou e-mail ao lado, será um prazer conversar com você!
-          </p>
+          </p>  
         </div>
 
         {/* Coluna 2 - Ícones de contato */}
-        <div className="col-md-6 text-center">
+        <div className="col-md-5 text-center">
           <div className={style.contactGrid}>
             <a href="mailto:almeid.ximenes@gmail.com?subject=Olá!&body=Gostaria de entrar em contato com você." target="_blank" rel="noreferrer">
               <img src={gmail} alt="Email" title="ximenes.ant@gmail.com" />
@@ -38,6 +39,6 @@ export const Contact: React.FC = () => {
           </div>
         </div>
       </div>
-    </div>
+    </Container>
   );
 };

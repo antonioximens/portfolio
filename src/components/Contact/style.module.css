@@ -1,21 +1,26 @@
 .title {
-  font-size: 3rem;
-  margin: 2rem 0;
-  padding-top: 1rem;
-  display: flex;
-  align-items: center;
+  font-size: 2rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
 }
 
 .contactStripe {
-  width: 200px;
-  height: 10px;
-  background-color: #f94702;
   display: inline-block;
+  width: 80px;
+  height: 6px;
+  margin-bottom: 0.5rem;
+  margin-left: 6rem;
+  margin-right: 0.5rem;
+  background-color: #f94702;
 }
 
 .description {
-  font-size: 1.1rem;
-  line-height: 1.6;
+  width: 78%;
+  margin: 0 auto;
+  font-size: 1.125rem;
+  font-weight: 400;
+  text-align: justify;
+  letter-spacing: 0.1em;
 }
 
 .contactGrid {
@@ -35,4 +40,12 @@
 .contactGrid img:hover {
   transform: scale(1.15);
   filter: brightness(1.2);
+}
+
+p {
+  margin-top: 1rem;
+  text-align: justify;
+  font-size: 1.125rem;
+  font-weight: 400;
+  letter-spacing: 0.1em;
 }
