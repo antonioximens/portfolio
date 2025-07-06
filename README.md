@@ -1,1 +1,3 @@
-Criação de um portfólio prático, onde executei conhecimentos práticos de REACT e TYPESCRIPT.
+Criação de um portfólio, onde executei conhecimentos práticos de REACT e TYPESCRIPT.
+
+Solidificando conheimnetos e experiencias.
