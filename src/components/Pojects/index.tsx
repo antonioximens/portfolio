@@ -13,13 +13,13 @@ const projects: Project[] = [
   {
     title: "Captura de Lead - Marketing",
     description:
-      "API em Node.js com TypeScript, Express e PostgreSql + Prisma para captura e gerenciamento de leads.",
+      "API em Node.js com TypeScript, Express e PostgreSql + Prisma para captura e gerenciamento de leads. Projeto em andamento, terminado finalidades de camada de negocios.",
     link: "https://github.com/antonioximens/captura-de-lead",
     code: `Aplicação backend em Node.js com TypeScript e Express,
 projetada para captura e gerenciamento de leads.
 A API REST permite cadastrar, listar, editar e excluir contatos,
 com base de dados PostgreSQL e integração via Prisma.
-Ideal para páginas de marketing e formulários de conversão.
+Ideal para páginas de marketing e formulários de conversão."
 `,
   },
   {

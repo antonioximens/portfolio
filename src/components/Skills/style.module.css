@@ -1,17 +1,28 @@
-.title {
-    font-size: 3rem;
-    margin-left: 35%;
+* {
+  outline: 1px solid red;
 }
+
+.title {
+  font-size: 2rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+}
+
 .description {
-  font-size: 1.1rem;
-  line-height: 1.6;
+  max-width: 550px;
+  margin: 0 auto;
+  font-size: 1.125rem;
+  font-weight: 400;
+  text-align: justify;
+  letter-spacing: 0.1em;
 }
 
 .portfolioStripe {
   display: inline-block;
-  width: 200px;
-  height: 10px;
-  margin: 0px 0px 10px 10px;
+  margin-right: 6rem;
+  width: 100px;
+  height: 6px;
+  margin-bottom: 0.5rem;
   background-color: #f94702;
 }
 
@@ -20,6 +31,9 @@
   flex-wrap: wrap;
   gap: 1.5rem;
   justify-content: center;
+  padding: 0 1rem;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 .skillsGrid img {

@@ -5,15 +5,14 @@ import js from "../../image/js.png"
 import physics from "../../image/physics.png"
 import programing from "../../image/programing.png"
 import typescript from "../../image/typescript.png"
+import { Container } from "react-bootstrap";
 
 export const Skills: React.FC = () => {
   return (
-    <div id="skills" className="container-fluid bg-dark text-light py-5">
+    <Container fluid id="skills" className="bg-dark text-light" >
       <div className="row align-items-center">
-        {/* Coluna da descrição */}
-
         {/* Coluna dos ícones */}
-        <div className="col-md-6 text-center mt-4 mt-md-0">
+        <div className="col-md-6 text-center">
           <div className={style.skillsGrid}>
             <img src={typescript} alt="TypeScript" />
             <img src={js} alt="JavaScript" />
@@ -22,10 +21,11 @@ export const Skills: React.FC = () => {
             <img src={database} alt="PostgreSQL" />
           </div>
         </div>
-        <div className="col-md-6 px-5">
+        <div className="col-md-6 d-flex flex-column justify-content-center align-items-end">
+           {/* Coluna da descrição */}
           <h2 className={style.title}>
             Skills
-            <span className={`me-2 ${style.portfolioStripe}`}></span>
+            <span className={`ms-2 ${style.portfolioStripe}`}></span>
           </h2>
           <p className={style.description}>
             Tenho conhecimento em desenvolvimento web utilizando TypeScript, JavaScript e React no front-end, e Node.js, Express, PostgreSQL e Prisma ORM no back-end. 
@@ -34,6 +34,6 @@ export const Skills: React.FC = () => {
           </p>
         </div>
       </div>
-    </div>
+    </Container>
   );
 };
